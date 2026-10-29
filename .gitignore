@@ -1,31 +1,17 @@
-# Dependencies
+# Aplicações e artefatos locais (qualquer profundidade)
 node_modules/
-
-# Build
 dist/
-
-# Environment
+build/
+coverage/
+.drizzle/
+logs/
+*.log
 .env
 .env.*
 !.env.example
-
-# Logs
-logs/
-*.log
-npm-debug.log*
-
-# OS
 .DS_Store
 Thumbs.db
-
-# IDE
 .idea/
 .vscode/
 *.swp
 *.swo
-
-# Test / coverage
-coverage/
-
-# Drizzle (local state, if generated outside migrations)
-.drizzle/
